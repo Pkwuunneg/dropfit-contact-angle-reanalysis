@@ -1,0 +1,25 @@
+{
+  "program_version": "1.0.0",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "utc_time": "2026-10-06T21:49:53.873085+00:00",
+  "elapsed_seconds": 19.623716675999958,
+  "input": "/mnt/data/contact_angle_project/input_pdfs",
+  "n_input_files": 19,
+  "n_records": 19,
+  "dependencies": {
+    "PyMuPDF": "1.26.7",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit-image": "0.26.0",
+    "Pillow": "12.3.0",
+    "matplotlib": "3.10.8"
+  },
+  "configuration": {
+    "defaults": {},
+    "images": {}
+  },
+  "sensitivity_enabled": true,
+  "errors": [],
+  "units": "native pixels and degrees; no physical-length calibration"
+}

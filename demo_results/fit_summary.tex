@@ -1,0 +1,39 @@
+% Requires ctex (or another Chinese-capable setup), booktabs, longtable.
+% All numbers are algorithmic reanalyses, not new independent measurements.
+\subsection{PDF液滴图像的数字轮廓重分析}
+为复核软件读数，从实验PDF报告中提取原生栅格图像，并在给定固--液基准线下提取液滴上轮廓。对可辨认的轮廓点进行全轮廓鲁棒圆拟合，同时采用局部参数多项式拟合估计左右表观接触角。原报告数值仅用于事后比较，不参与拟合或异常判定。
+
+自动模式使用报告中已标注的绿色基准线，因此属于共享基准线的算法交叉验证，而不是完全独立的测角。图中的彩色辅助线被作为遮挡筛除，但JPEG压缩和边缘覆盖造成的信息损失无法完全消除。
+
+\begingroup\small
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{p{0.38\linewidth}rrrl}
+\caption{原读数与图像重分析候选值比较。角度单位为度；REVIEW行不自动纳入有效测量结果。}\\
+\toprule 源文件标签 & 原读数 & 圆拟合 & 局部均值 & 状态\\\midrule
+\endfirsthead
+\toprule 源文件标签 & 原读数 & 圆拟合 & 局部均值 & 状态\\\midrule
+\endhead
+水-Al-2 & 36.9 & 34.9 & 40.8 & CONDITIONAL \\
+水-Al-3-tan & 82.2 & 81.7 & 85.1 & CONDITIONAL \\
+水-Al-3-theta & 81.0 & 82.1 & 84.1 & CONDITIONAL \\
+水-Cglass-tan-1 & 61.0 & 60.2 & 62.3 & CONDITIONAL \\
+水-Cglass-theta-1 & 61.0 & 60.2 & 62.3 & CONDITIONAL \\
+水-NKUcard-tan-1 & 32.9 & 30.2 & 38.7 & REVIEW \\
+水-NKUcard-theta-1 & 31.6 & 31.4 & 33.7 & CONDITIONAL \\
+水-glass-tan-1 & 26.5 & 24.2 & 28.8 & CONDITIONAL \\
+水-glass-theta-1 & 25.0 & 24.8 & 28.5 & CONDITIONAL \\
+水-leaf1-tan-1 & 51.3 & 49.9 & 51.8 & CONDITIONAL \\
+水-leaf1-theta-1 & 49.7 & 50.3 & 52.2 & CONDITIONAL \\
+水-leaf2-tan-1 & 69.4 & 69.7 & 69.2 & CONDITIONAL \\
+水-leaf2-theta-1 & 71.5 & 71.6 & 69.3 & CONDITIONAL \\
+水-paper-tan-1 & 60.8 & 61.3 & 65.8 & REVIEW \\
+水-paper-theta-1 & 61.4 & 61.9 & 62.1 & CONDITIONAL \\
+水-ruler-tan-1 & 63.7 & 61.1 & 64.9 & CONDITIONAL \\
+水-ruler-theta-1 & 61.7 & 62.1 & 62.3 & CONDITIONAL \\
+酒精-Al-1-theta & 1.6 & NA & NA & NA \\
+酒精-NKUcard-tan-1 & 22.0 & 18.1 & 29.3 & REVIEW \\
+\bottomrule\end{longtable}\endgroup
+
+其中CONDITIONAL表示在既定基准线与圆形轮廓假设下通过程序筛查，仍需人工确认；REVIEW表示模型差异、局部不对称或参数敏感性需要复核；NA表示未获得可靠有限角，而非接触角严格为零。基准线移动、灰度阈值改变及拟合窗口调整所得到的范围仅表示处理参数敏感性，不是统计置信区间。
+
+同一图像的不同算法结果不是独立重复测量。没有据此计算材料的总体均值、总体标准差或显著性检验，也未反演表面能、表面张力或未经标定的毫米尺度。

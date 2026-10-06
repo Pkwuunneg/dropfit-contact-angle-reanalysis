@@ -1,0 +1,261 @@
+{
+  "filename": "水-paper-theta-1.pdf",
+  "liquid": "水",
+  "material": "paper",
+  "filename_method": "theta",
+  "filename_acquisition_key": "水-paper-1",
+  "page": 1,
+  "image_index": 1,
+  "key": "水-paper-theta-1.pdf::p1::i1",
+  "xref": 11,
+  "extraction": "embedded_raster",
+  "pdf_bbox": [
+    3.0,
+    84.23974609375,
+    595.2000122070312,
+    534.23974609375
+  ],
+  "display_pixel_scale_ratio_xy": 0.9994936914886603,
+  "reported_angles": {
+    "left_deg": 61.7,
+    "right_deg": 61.15,
+    "mean_deg": 61.425
+  },
+  "page_text": " \n接触角测试报告\n固体名称: 玻璃\n液体名称：水\n液体温度：20℃  \n液体表面能：72.8 mN/m\n气体名称：大气\n气压（pa)：1\n左接触角:  61.7 度  \n右接触角:  61.15 度  \n平均接触角:  61.425 度  \n液滴截面积:  17256 平方毫米\n粘附功能:  107.62 mN/m \n固体表面能:  65.85 mN/m \n测试日期:  2026/9/23 \n测试人:   \n测试仪器: JCY系列接触角测试仪      \u0001\n            \n",
+  "extraction_warnings": [],
+  "native_width": 790,
+  "native_height": 600,
+  "image_sha256": "df906bffa9ee166013fd6fb316f71542353f6966b480625060e7c5eeffd540dc",
+  "status": "CONDITIONAL",
+  "reportable_theta_deg": 61.8772548002327,
+  "flags": [],
+  "info_flags": [
+    "SHARED_REPORT_BASELINE",
+    "BASELINE_NOT_INDEPENDENTLY_VALIDATED"
+  ],
+  "config": {
+    "level": 110.0,
+    "exclude_band": 6.0,
+    "color_delta": 60.0,
+    "local_fraction": 0.4,
+    "local_degree": 2,
+    "max_circle_rmse_px": 2.0,
+    "max_circle_sensitivity_span_deg": 5.0,
+    "max_local_circle_difference_deg": 6.0,
+    "max_local_asymmetry_deg": 8.0,
+    "max_masked_fraction": 0.55
+  },
+  "fit": {
+    "circle": {
+      "u_center_px": -8.436849769037668,
+      "v_center_px": -73.97584147963407,
+      "radius_px": 156.94060368282894,
+      "theta_deg": 61.8772548002327,
+      "left_contact_u_px": -146.84901672595961,
+      "right_contact_u_px": 129.97531718788426,
+      "rmse_px": 0.42053720931791183,
+      "max_abs_residual_px": 1.4610193031718097,
+      "jacobian_condition": 12.4215425160186
+    },
+    "local": {
+      "left": {
+        "theta_deg": 59.56581887228361,
+        "contact_u_px": -148.1562411708046,
+        "q_contact": -0.0069158004429006326,
+        "q_min_observed": 0.09679974449262932,
+        "q_max_observed": 0.9954802525930095,
+        "window_px": 67.79594451886233,
+        "coeff_u": [
+          -147.9123798504867,
+          35.327242704545824,
+          9.509860582906182
+        ],
+        "coeff_v": [
+          0.41387598446796586,
+          59.78225745457074,
+          -9.070402344620078
+        ],
+        "n_points": 82,
+        "tangent_uv": [
+          35.19570610848345,
+          59.90771563967516
+        ],
+        "fit_rmse_px": 0.08729689286417518
+      },
+      "right": {
+        "theta_deg": 64.6088525907215,
+        "contact_u_px": 128.0395466555626,
+        "q_contact": 0.01776179240616038,
+        "q_min_observed": 0.12623194555561107,
+        "q_max_observed": 0.9847097930208747,
+        "window_px": 67.79594451886233,
+        "coeff_u": [
+          128.56445089781266,
+          -29.321649813229932,
+          -12.993434659708875
+        ],
+        "coeff_v": [
+          -1.1179077839084552,
+          63.1294703444082,
+          -10.72888753536719
+        ],
+        "n_points": 67,
+        "tangent_uv": [
+          -29.783223191367448,
+          62.74834179810373
+        ],
+        "fit_rmse_px": 0.16331882896994562
+      },
+      "mean_deg": 62.08733573150255,
+      "asymmetry_deg": 5.04303371843789,
+      "base_width_px": 276.1957878263672,
+      "degree": 2,
+      "fraction": 0.4
+    },
+    "theta_half_deg": 62.03071564124379,
+    "local_error": null,
+    "height_observed_px": 83.0279746803535,
+    "component_area_px2": 16180,
+    "n_candidate_points": 423,
+    "n_used_points": 369,
+    "masked_fraction": 0.12765957446808507,
+    "level": 110.0,
+    "exclude_band_px": 6.0,
+    "color_delta": 60.0
+  },
+  "sensitivity": {
+    "kind": "one_at_a_time_parameter_sensitivity_not_confidence_interval",
+    "scenarios": [
+      {
+        "name": "nominal",
+        "ok": true,
+        "circle_deg": 61.8772548002327,
+        "local_mean_deg": 62.08733573150255,
+        "theta_half_deg": 62.03071564124379
+      },
+      {
+        "name": "baseline_up_1px",
+        "ok": true,
+        "change": {
+          "baseline_shift": 1.0
+        },
+        "circle_deg": 61.46821914445029,
+        "local_mean_deg": 61.69071539906041,
+        "theta_half_deg": 61.61556150232023
+      },
+      {
+        "name": "baseline_down_1px",
+        "ok": true,
+        "change": {
+          "baseline_shift": -1.0
+        },
+        "circle_deg": 62.29587213574412,
+        "local_mean_deg": 62.52503058478927,
+        "theta_half_deg": 62.45141227896831
+      },
+      {
+        "name": "threshold_minus_25",
+        "ok": true,
+        "change": {
+          "level": 85.0
+        },
+        "circle_deg": 61.77325946651095,
+        "local_mean_deg": 62.328251334424806,
+        "theta_half_deg": 62.03094559297993
+      },
+      {
+        "name": "threshold_plus_25",
+        "ok": true,
+        "change": {
+          "level": 135.0
+        },
+        "circle_deg": 61.98018544156868,
+        "local_mean_deg": 62.13154125474628,
+        "theta_half_deg": 62.1070463172697
+      },
+      {
+        "name": "exclude_band_minus_2px",
+        "ok": true,
+        "change": {
+          "exclude_band": 4.0
+        },
+        "circle_deg": 61.894993185479784,
+        "local_mean_deg": 62.221318729444576,
+        "theta_half_deg": 62.04921535049823
+      },
+      {
+        "name": "exclude_band_plus_2px",
+        "ok": true,
+        "change": {
+          "exclude_band": 8.0
+        },
+        "circle_deg": 61.87474361222436,
+        "local_mean_deg": 61.90812853731278,
+        "theta_half_deg": 62.00441446173771
+      },
+      {
+        "name": "local_window_minus_0.1",
+        "ok": true,
+        "change": {
+          "local_fraction": 0.30000000000000004
+        },
+        "circle_deg": 61.8772548002327,
+        "local_mean_deg": 62.677806007780234,
+        "theta_half_deg": 62.07221261757386
+      },
+      {
+        "name": "local_window_plus_0.1",
+        "ok": true,
+        "change": {
+          "local_fraction": 0.5
+        },
+        "circle_deg": 61.8772548002327,
+        "local_mean_deg": 61.717914116340935,
+        "theta_half_deg": 61.99734886427117
+      },
+      {
+        "name": "local_polynomial_degree_alternative",
+        "ok": true,
+        "change": {
+          "local_degree": 3
+        },
+        "circle_deg": 61.8772548002327,
+        "local_mean_deg": 63.36348835707692,
+        "theta_half_deg": 62.10378945697072
+      }
+    ],
+    "ranges": {
+      "circle_deg": {
+        "min": 61.46821914445029,
+        "max": 62.29587213574412,
+        "span": 0.8276529912938315,
+        "n": 10
+      },
+      "local_mean_deg": {
+        "min": 61.69071539906041,
+        "max": 63.36348835707692,
+        "span": 1.672772958016509,
+        "n": 10
+      },
+      "theta_half_deg": {
+        "min": 61.61556150232023,
+        "max": 62.45141227896831,
+        "span": 0.8358507766480798,
+        "n": 10
+      }
+    }
+  },
+  "baseline": {
+    "origin": [
+      341.0,
+      285.83094912008215
+    ],
+    "angle": 0.03888954340496146,
+    "source": "report_green_line",
+    "validated": false,
+    "residual_px": 0.6050262549467812,
+    "span_px": 288.0
+  },
+  "difference_from_report_deg": 0.45225480023270137,
+  "output_folder": "images/015_df906bffa9"
+}

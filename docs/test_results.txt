@@ -1,0 +1,22 @@
+test_baseline_shift_sign (test_dropfit.GeometryTests.test_baseline_shift_sign) ... ok
+test_coordinate_round_trip (test_dropfit.GeometryTests.test_coordinate_round_trip) ... ok
+test_exact_circle_including_obtuse_angles (test_dropfit.GeometryTests.test_exact_circle_including_obtuse_angles) ... ok
+test_local_tangents_support_obtuse_angles (test_dropfit.GeometryTests.test_local_tangents_support_obtuse_angles) ... ok
+test_noisy_circle (test_dropfit.GeometryTests.test_noisy_circle) ... ok
+test_blank_image_is_na (test_dropfit.ImageTests.test_blank_image_is_na) ... ok
+test_detached_drop_is_na (test_dropfit.ImageTests.test_detached_drop_is_na) ... ok
+test_green_annotation_baseline (test_dropfit.ImageTests.test_green_annotation_baseline) ... ok
+test_override_hash_checked (test_dropfit.ImageTests.test_override_hash_checked) ... ok
+test_raster_circles (test_dropfit.ImageTests.test_raster_circles) ... ok
+test_reported_value_cannot_change_fit (test_dropfit.ImageTests.test_reported_value_cannot_change_fit) ... ok
+test_thin_film_is_na (test_dropfit.ImageTests.test_thin_film_is_na) ... ok
+test_tilt (test_dropfit.ImageTests.test_tilt) ... ok
+test_unknown_baseline_is_na (test_dropfit.ImageTests.test_unknown_baseline_is_na) ... ok
+test_exact_pixel_duplicate_hash (test_dropfit.MetadataTests.test_exact_pixel_duplicate_hash) ... ok
+test_filename_is_primary (test_dropfit.MetadataTests.test_filename_is_primary) ... ok
+test_parse_reported_angles_only (test_dropfit.MetadataTests.test_parse_reported_angles_only) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.626s
+
+OK

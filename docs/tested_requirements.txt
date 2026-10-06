@@ -1,0 +1,6 @@
+PyMuPDF==1.26.7
+numpy==2.3.5
+scipy==1.17.0
+scikit-image==0.26.0
+Pillow==12.3.0
+matplotlib==3.10.8
